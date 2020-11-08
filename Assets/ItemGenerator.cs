@@ -22,13 +22,13 @@ public class ItemGenerator : MonoBehaviour
     // Update is called once per frame
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "BarTag")
+        if(other.gameObject.tag == "LineTag")
         {
             // 接触したオブジェクトの座標を取得
             Vector3 hitPos = other.ClosestPointOnBounds(this.transform.position);
 
-            // 取得した座標の80ｍ先から50m先までにアイテムを生成
-            for (float i = other.transform.position.z; i < other.transform.position.z + 50; i += 15)
+            // 取得したZ座標の80m先から、50m先までにアイテムを生成
+            for (float i = other.transform.position.z + 80f; i < other.transform.position.z + 50f; i += 15)
             {
                 // どのアイテムを出すのかをランダムに設定
                 int num = Random.Range(1, 11);

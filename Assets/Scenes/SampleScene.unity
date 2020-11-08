@@ -1602,6 +1602,16 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1396925564999414597, guid: 586448497ca283f48a370eadc1e4cf0e,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396925564999414597, guid: 586448497ca283f48a370eadc1e4cf0e,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3302959773540852851, guid: 586448497ca283f48a370eadc1e4cf0e,
         type: 3}
       propertyPath: m_Enabled
@@ -1611,6 +1621,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917660440815590537, guid: 586448497ca283f48a370eadc1e4cf0e,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 4.87
       objectReference: {fileID: 0}
     - target: {fileID: 4319740599099104645, guid: 586448497ca283f48a370eadc1e4cf0e,
         type: 3}
